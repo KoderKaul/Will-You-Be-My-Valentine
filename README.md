@@ -8,7 +8,7 @@ The "No" button runs away when they try to click it, ensuring a 100% success rat
 * **Mobile & Desktop Friendly:** Works with mouse hover (desktop) and touch (mobile).
 * **The "Unclickable" Button:** The "No" button dodges the cursor/finger using random viewport coordinates.
 * **Instant Success State:** Clicking "Yes" swaps the GIF and text immediately without reloading.
-* **Single File:** Zero dependencies. Just one `index.html` file.
+* **Single File:** Zero dependencies. Just one `hehe.html` file.
 
 ## 🚀 How to Run Locally
 
