@@ -29,3 +29,26 @@ python3 -m http.server 8000
 Then access it via your local IP: `http://<YOUR_LOCAL_IP>:8000/hehe.html`
 
 Use `ifconfig | grep "inet " | grep -v 127.0.0.1` on Mac for finding the local IP(it will be left to "netmask")
+
+### 🌐 Hosting for your Partner
+Since you probably want to send this as a link, here are the best ways to host it:
+
+#### Option A: GitHub Pages (Permanent & Free)
+- Upload `hehe.html` to a public GitHub repository.
+- Go to `Settings > Pages`.
+- Select the main branch as the source.
+- Send the generated link to your partner!
+
+#### Option B: Ngrok (Temporary & Secure)
+- Great for a surprise "right now" link without deploying.
+- Start your local Python server (python3 -m http.server 8000).
+
+Run Ngrok:
+
+```Bash
+ngrok http 8000
+Send the https://....ngrok-free.app link.
+```
+
+### 📄 License
+MIT License. Feel free to use, modify, and spread the love!
